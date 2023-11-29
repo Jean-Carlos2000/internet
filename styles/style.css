@@ -1,54 +1,32 @@
 *{
     box-sizing: border-box;
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px; 
 }
 
-header{
-    background: hsl(0, 0%, 25%);
-    padding: 1vh;
-    z-index: 1;
-}
-
-ul{
-    margin: 0px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    
-}
-
-
-
-a{
-text-decoration: none;
-color: white;
-
-}
-
-a:hover{
-    padding: 1vh;
-    background-color: hsl(0, 0%, 10%);
-    text-decoration: underline;
-}
-
-main img{
-    top: -100px;
+.achtergrond{
     width: 100%;
     height: 100vh;
-    position: relative;
-    z-index: -1;
-    
+    background-image: url(/internet/image/saonailand.jpeg);
+    background-position: center;
+    background-size: cover;
 }
 
-h1{
+/* navbar */
+
+.navbar{
+    height: 12%;
     display: flex;
-    justify-content: center;
-    
+    align-items: center;
 }
 
-footer p{
-    
-}
+
+/* main home */
+
+
+
+
+
+
+
 
