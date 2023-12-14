@@ -7,6 +7,11 @@
 body{
     background-color: bisque;
 }
+
+h2{
+    font-size: 50px;
+}
+
     
 
 
@@ -179,10 +184,13 @@ h1{
 
 /* punta cana */
 .main2{
-    margin-left: 10px;
-    margin-right: 10px;
     margin-bottom: 10px;
     font-size: 25px;
+}
+
+.main2 section{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .main2 img{
@@ -192,11 +200,6 @@ h1{
 .main2 section{
     margin-top: 20vh;
 }
-
-.main2 h2{
-    font-size: 50px;
-}
-
 
 .puntacana div{
     display: flex;
@@ -298,6 +301,7 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .divoffroad{
@@ -312,6 +316,93 @@ h1{
 }
 
 /* isla saona */
+
+.islasection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.islavideo video{
+    height: 40vh;
+    border-radius: 10px;
+}
+
+
+.divisla{
+    text-align: center;
+    width: 50vw;
+}
+
+/* Review kaarten */
+
+.review{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reviewkaart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 30vh;
+    width: 30vw;
+    border: solid 2px;
+    border-color: gray;
+    
+}
+
+.reviewfoto{
+    object-fit: cover;
+    
+}
+
+.reviewfoto img{
+    height: 10vh;
+    width: 5vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.watvindenanderen{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Accomodatie page */
+
+.mainaccomodatie section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.accoh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kaartenhotels{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.kaartenhotels img{
+    height: 30vh;
+    width: 23vw;
+    border-radius: 10px;
+}
+
+
+
 
 
 
