@@ -1,44 +1,55 @@
 *{
     box-sizing: border-box;
     padding: 0px;
-    margin: 0px; 
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 body{
     background-color: bisque;
 }
 
-h2{
-    font-size: 50px;
+h1{
+    font-size: 60px;
 }
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
 
     
 
 
-/* navbar en achtergrond */
+/* navbar */
 .ulhome{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
     background-color: hsla(0, 0%, 50%, 0.39);
-    padding: 2vh;
+    padding: 4vh;
 }
 
 
 .ahome a {
     text-decoration: none;
     color: black;
+    padding: 1em;
     font-size: 24px;
-    padding: 1px;
-    padding: 1px;
 }
 
-.ahome :hover {
-    background-color: hsla(0, 0%, 50%, 0.39);
-    padding: 2px 2px 2px 2px;
-    border-radius: 3px;
+.ahome a:hover {
+    background-color: hsla(0, 0%, 50%, 0.597);
+    border-radius: 10px;
+    text-decoration: underline;
+    transition: all 250ms ease-in;
 }
+
 
 /* welcome tekst home */
 h1{
@@ -126,11 +137,17 @@ h1{
     border-radius: 10px;
     margin-left: 2vw;
     border: 3px solid black;
+    transition: all 250ms ease-in;
 }
 
 .knoppenkaart a{
     text-decoration: none;
     color: black;
+}
+
+.knoppenkaart p:hover{
+    background-color: white;
+    transform: scale(1.1);
 }
 
 /* Footer */
@@ -185,6 +202,10 @@ h1{
 /* punta cana */
 .main2{
     margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.main2 ol{
     font-size: 25px;
 }
 
@@ -400,6 +421,9 @@ h1{
     width: 23vw;
     border-radius: 10px;
 }
+
+/* States, transities en animaties */
+
 
 
 
