@@ -202,11 +202,12 @@ h1{
 /* punta cana */
 .main2{
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .main2 ol{
     font-size: 25px;
+    list-style: none;
 }
 
 .main2 section{
@@ -318,6 +319,10 @@ h1{
 
 /* page activiteiten */
 
+.mainactiviteiten p{
+    font-size: 20px;
+}
+
 .offroad{
     display: flex;
     justify-content: space-around;
@@ -356,6 +361,12 @@ h1{
 }
 
 /* Review kaarten */
+
+.kaartenhotels{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
 
 .review{
     display: flex;
@@ -422,14 +433,95 @@ h1{
     border-radius: 10px;
 }
 
+.beschrijving{
+    color: grey;
+}
+
 /* States, transities en animaties */
 
+.offroadvideo{
+    animation: slidein 600ms ease-in;
+    transform: translateX(0%);
+}
 
+@keyframes slidein {
+    0%{
+        transform: translateX(200%);
+    }
 
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
 
+.islavideo{
+    animation: slidein 600ms ease-in;
+    transform: translateX(0%);
+}
 
+@keyframes slidein {
+    0%{
+        transform: translateX(200%);
+    }
 
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
 
+.divisla{
+    animation: fadein 1s ease-in;
+    opacity: 100%;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+
+}
+
+.divoffroad{
+    animation: fadein 1s ease-in;
+    opacity: 100%;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+
+}
+
+.reviewkaart{
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
+
+.hoverkaart:hover{
+    scale: 1.05;
+}
 
 
 
