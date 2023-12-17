@@ -61,6 +61,8 @@ h1{
 }
 
 .phome{
+    font-size: 20px;
+    text-align: center;
     color: black;
     display: flex;
     justify-content: center;
@@ -120,7 +122,6 @@ h1{
 
 .kaart3 img{
     width: 100%;
-    transform:translateY(-20%);
 }
 
 .knoppenkaart{
@@ -197,6 +198,14 @@ h1{
     padding: 20px 40px 100px 20px;
 }
 
+.dr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 
 
 /* punta cana */
@@ -206,7 +215,6 @@ h1{
 }
 
 .main2 ol{
-    font-size: 25px;
     list-style: none;
 }
 
@@ -225,8 +233,8 @@ h1{
 
 .puntacana div{
     display: flex;
-    
 }
+
 
 .puntacana img{
     height: 50vh;
@@ -408,6 +416,10 @@ h1{
 }
 
 /* Accomodatie page */
+
+.ptekstacomodatie{
+    font-size: 20px;
+}
 
 .mainaccomodatie section{
     margin-top: 100px;
