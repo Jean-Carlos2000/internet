@@ -194,7 +194,6 @@ h1{
 /* rondreis pagina2 */
 
 .divhome2{
-    background-image: url(/internet/image/dr.jpg);
     padding: 20px 40px 100px 20px;
 }
 
@@ -564,7 +563,7 @@ h1{
 }
 
 .hoverkaart:hover{
-    scale: 1.05;
+    transform: scale(1.1);
 }
 
 
